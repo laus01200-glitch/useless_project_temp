@@ -49,12 +49,19 @@ For Software: Trust_Issues.exe is a browser-based prank web application that gui
 [Login Interface] (image-1.png)
 Login screen — the retro Windows-98-styled entry point of the app. Any username and password are accepted; there's no real authentication at all. The "Remember me (we won't)" checkbox is a small joke rather than a functional option, and clicking "LOG IN →" always proceeds straight to the next stage regardless of what was entered.
 
-[CAPTCHA verification](image-3.png)
+[CAPTCHA verification] (image-3.png)
 "Prove It" image CAPTCHA — the question changes each attempt (here: "Select all squares with trees" instead of the traffic-light example). The user has actually selected all three correct tiles, but the CAPTCHA is rigged to reject the answer regardless — shown here on attempt 2 of 4, paired with one of the randomized meaner insults that vary each time rather than repeating the same line.
 
 # Diagrams
-[Once the game ends — either by hitting a pipe or the hard 7-second timer — control passes into the payoff sequence: the cutscene, the shared prank counter, and the final reveal.](image-5.png)
+[Once the game ends — either by hitting a pipe or the hard 7-second timer — control passes into the payoff sequence: the cutscene, the shared prank counter, and the final reveal.] (image-5.png)
 [Two things worth calling out that the diagrams simplify: the CAPTCHA stage isn't a straight pass-through — it loops through up to 4 rigged attempts before letting the user continue regardless of what they picked. And the game's ending is a race between two conditions, whichever fires first: a pipe collision or the 7-second hard timer — either one triggers the same cutscene.] (image-4.png)
+
+# Video
+[<video controls src="Screen Recording 2026-09-06 072944.mp4" title="Title"></video>] 
+This self-contained web app demonstrates a playful, intentionally absurd digital prank experience: users pass through a mock login, randomized hostile CAPTCHA challenges, a microphone-powered “download,” and a Flappy Bird-style game before encountering a simulated display blackout, fake system message, and randomized jump scare. It showcases HTML, CSS, Canvas, Web Audio, microphone input, local storage, animation, and browser-based interaction in one standalone file.
+
+# Additional Demos
+[C:/Users/Laura/Documents/Codex/2026-09-05/create-a-webapp-called-trust-issues/outputs/trust-issues-exe/index.html]
 
 ## Team Contributions
 - Laura Saju: Frontend
